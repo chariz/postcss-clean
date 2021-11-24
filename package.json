@@ -18,6 +18,7 @@
   "homepage": "https://github.com/leodido/postcss-clean",
   "main": "index.js",
   "module": "index.m.js",
+  "types": "index.d.ts",
   "dependencies": {
     "clean-css": "^4.1",
     "postcss": "^8.x"
