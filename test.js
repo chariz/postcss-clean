@@ -1,7 +1,7 @@
-import test from 'ava';
-import postcss from 'postcss';
-import plugin from './';
-import CleanCss from 'clean-css'
+const test = require('ava');
+const postcss = require('postcss');
+const plugin = require('.');
+const CleanCss = require('clean-css');
 
 // Test that postcss plugin works like clean-css
 
@@ -34,13 +34,11 @@ const colors = [
   '#6495ed',
   '#fff8dc',
   '#dc143c',
-  '#0ff',
   '#00008b',
   '#008b8b',
   '#b8860b',
   '#a9a9a9',
   '#006400',
-  '#a9a9a9',
   '#bdb76b',
   '#8b008b',
   '#556b2f',
@@ -51,12 +49,10 @@ const colors = [
   '#8fbc8f',
   '#483d8b',
   '#2f4f4f',
-  '#2f4f4f',
   '#00ced1',
   '#9400d3',
   '#ff1493',
   '#00bfff',
-  '#696969',
   '#696969',
   '#1e90ff',
   '#b22222',
@@ -70,7 +66,6 @@ const colors = [
   '#808080',
   '#008000',
   '#adff2f',
-  '#808080',
   '#f0fff0',
   '#ff69b4',
   '#cd5c5c',
@@ -87,12 +82,10 @@ const colors = [
   '#fafad2',
   '#d3d3d3',
   '#90ee90',
-  '#d3d3d3',
   '#ffb6c1',
   '#ffa07a',
   '#20b2aa',
   '#87cefa',
-  '#778899',
   '#778899',
   '#b0c4de',
   '#ffffe0',
@@ -146,7 +139,6 @@ const colors = [
   '#c0c0c0',
   '#87ceeb',
   '#6a5acd',
-  '#708090',
   '#708090',
   '#fffafa',
   '#00ff7f',
