@@ -1,5 +1,5 @@
 {
-  "name": "postcss-clean",
+  "name": "@chariz/postcss-clean",
   "version": "1.2.2",
   "description": "PostCSS plugin to minify CSS with clean-css",
   "author": {
@@ -11,12 +11,14 @@
     "node": ">=8.0.0"
   },
   "license": "MIT",
-  "repository": "leodido/postcss-clean",
-  "bugs": {
-    "url": "https://github.com/leodido/postcss-clean/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chariz/postcss-clean.git"
   },
-  "homepage": "https://github.com/leodido/postcss-clean",
-  "type": "module",
+  "bugs": {
+    "url": "https://github.com/chariz/postcss-clean/issues"
+  },
+  "homepage": "https://github.com/chariz/postcss-clean",
   "main": "index.js",
   "module": "index.m.js",
   "types": "index.d.ts",
