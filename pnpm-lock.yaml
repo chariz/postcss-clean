@@ -5,7 +5,7 @@ specifiers:
   '@rollup/plugin-buble': ^0.21.3
   ava: ^3.15.0
   buble: ^0.20.0
-  clean-css: ^5.2.2
+  clean-css: ^5.x
   conventional-changelog-cli: ^2.1
   coveralls: ^3.1
   eslint: ^8.3.0
